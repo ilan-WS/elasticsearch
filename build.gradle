@@ -121,7 +121,7 @@ subprojects {
   }
 
   // Ultimately the RestTestBase Plugin should apply the InternalTestClusters Plugin itself instead of TestClusters
-  // but this requires major rework on the func test infrastructure.
+  // but this requires major rework on the func test infrastructure so its like this.
   // TODO: This will be addressed once we have https://github.com/elastic/elasticsearch/issues/71593 resolved
   project.plugins.withType(RestTestBasePlugin) {
     project.plugins.apply(InternalTestClustersPlugin)
