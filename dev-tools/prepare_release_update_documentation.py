@@ -13,7 +13,7 @@
 # Note: Ensure the script is run from the root directory
 #       This script needs to be run and then pushed,
 #       before proceeding with prepare_release_create-release-version.py
-#       on your build VM
+#       on your build VM to run it
 #
 
 import fnmatch
